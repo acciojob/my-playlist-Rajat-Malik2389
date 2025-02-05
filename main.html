@@ -1,40 +1,32 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<div style="background-color: rgb(204, 204, 204)">
-		<h1 style="text-align: center">
-			My Playlist
-		</h1>
-		<ul style="border: 2px solid black; border-radius: 5px; background-color: white; margin: 25px; padding: 10px 20px; list-style: none;">
-			<li><a href="" target="_blank" style="text-decoration: none; color: black">Song 1</a></li>
-			<li><a href="" target="_blank" style="text-decoration: none; color: black">Song 2</a></li>
-			<li><a href="" target="_blank" style="text-decoration: none; color: black">Song 3</a></li>
-			<li><a href="" target="_blank" style="text-decoration: none; color: black">Song 4</a></li>
-			<li><a href="" target="_blank" style="text-decoration: none; color: black">Song 5</a></li>
+<h1>My Playlist</h1>
+	<div class="container1">
+		<ul>
+			<li><a href="" target="_blank">Song 1</a></li>
+			<li><a href="" target="_blank">Song 2</a></li>
+			<li><a href="" target="_blank">Song 3</a></li>
+			<li><a href="" target="_blank">Song 4</a></li>
+			<li><a href="" target="_blank">Song 5</a></li>
 		</ul>
-		<h2 style="text-align: center">Now Playing...</h2>
-		<div style="background-color: white; border: 2px solid black; margin: 0 80px; border-radius: 5px;">
-		<div style="display: flex; justify-content: center">
-		<video style="background-color: rgb(255, 255, 255); padding: 10px; border-radius: 5px; display: flex;  justify-content: center;" src="https://www.w3schools.com/tags/movie.mp4" controls></video>
-		</div>
+		<h2>Now Playing...</h2>
+	<div class="container2">
+		<video class="player_one" controls>
+			<source src="https://www.w3schools.com/tags/movie.mp4" type="">
+		</video>
+		<h2>MP3 songs</h2>
+		<p>Maan Meri Jaan</p>
+		<audio class="player_two" controls>
+			<source src="https://www.w3schools.com/tags/movie.mp4" type="">
+		</audio>
 		
-			<h2 style="text-align: center">MP3 songs</h2>
-		
-		<div style="display: flex; justify-content: center">
-		<audio style="background-color: rgb(255, 255, 255); padding; border-radius: 5px;" src="https://www.pagalworld.com.se/files/download/id/64630" controls></audio>
-		</div>
-		</div>
 	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
 </body>
-
 </html>
